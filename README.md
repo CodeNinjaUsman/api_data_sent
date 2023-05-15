@@ -11,8 +11,17 @@ To run this API, you need the following software installed on your system:
 # Installation
 - Clone the repository:
 ```
-git clone https://github.com/your_username/your_project.git
-cd your_project
+git clone https://github.com/codeninjausman/api_data_sent
+cd api_data_sent
+```
+- Create and activate a virtual environment:
+```
+python -m venv venv
+source venv/bin/activate
+```
+- Install the required packages:
+```
+pip install -r requirements.txt
 ```
 - Setup the database:
 1. Install and start XAMPP.
