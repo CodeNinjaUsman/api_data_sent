@@ -56,6 +56,6 @@ python manage.py runserver
 # Usage
 To use this API, you can make requests to the available endpoints using a tool like curl or httpie, or you can use a web interface like Postman or Insomnia.
 
-Before making requests, ensure that you have a token by sending a POST request to /api/obtain_token/ with your credentials in the payload. To include the token in subsequent requests to the endpoints, add an Authorization header with the value **Token <your_token_here>**.
+Before making requests, ensure that you have a token by sending a POST request to **/api/obtain_token/** with your credentials in the payload. To include the token in subsequent requests to the endpoints, add an **Authorization header** with the value **Token <your_token_here>**.
 
-For more details on how to use the API endpoints, please refer to the documentation provided in the Postman collection, which you can access here: [insert your Postman collection link here].
+For more details on how to use the API endpoints, please refer to the documentation provided in the Postman collection, which you can access here: [Collection Link..](https://red-crater-662608.postman.co/workspace/Team-Workspace~2822bb94-cce7-4f85-863e-3a7eee0dff1b/collection/25933712-c8e022c3-d06a-4118-b546-8f22511efe29?action=share&creator=25933712).
